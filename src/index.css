@@ -1,9 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+ 
+.section-hero{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    height: 500vh;
 
-.body{
-    margin-bottom: 1000px;
 }
 .nav{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -12,10 +25,9 @@
     position: fixed;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
     left: 20%;
-    
     
     
     background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
@@ -24,22 +36,93 @@
     border-radius: 20px;
     border: 1px solid rgba(255,255,255,0.18);
     box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
-    
-    
 }
-
 .atrib{
     text-decoration: none;
     color: black;
+    font-size: 17px;
 }
 .atrib:hover{
     color: gray;
 }
+    
+    
 
-.texto{
-    margin-top: 30px;
-    padding-top: 60px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    }
+/* Hero section */
+.profile-photo{
+    margin-top: 100px;
+    border-radius: 25em;
+    size: 30px;
+    height: 300px;
+    width: 300px;
+    
+}
+.texto-rigth{
+    margin-top: 10px;
+}
+.hero-text{
+    font-size: 20px;
+    margin-top: 100px;
+    
+    align-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    
+}
+.hello{
+    margin: 5px;
+    padding-left: 60px;
+    color: rgba(63, 63, 63, 0.815);
+    font-size: 25px;
+}
+.Yosbel{
+    padding-left: 35px;
+    
+}
+.frontend{
+    padding-left: 5px;
+    margin-top: 5px;
+    font-size: 25px;
+    color: rgba(63, 63, 63, 0.815);
+    font-weight: 600;
+}
+h1{
+    font-size: 50px;
+    margin: 2px;
+}
+
+.boton-cv{
+    border-radius: 40px;
+    border: 0.1px solid gray;
+    background-color: white;
+    font-size: 13px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-weight: 800;
+}
+.boton-contact{
+    border-radius: 40px;
+    border: 0.1px solid rgb(0, 0, 0);
+    color: white;
+    background-color: black;
+    font-size: 13px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 800;
+    margin-left: 10px;
+}
+.social-media{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.github, .linkedin{
+    height: 45px;
+    
+
+}

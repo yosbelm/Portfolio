@@ -1,9 +1,20 @@
-import './App.css'
+import './index.css'
 import { Header } from './header';
+import { Hero } from './hero';
 
 function App() {
   return (
-    <><Header/></>
+    <>
+    <div>
+      <Header/>
+    
+      <Hero/>
+    </div>
+      
+      
+    
+    </>
+
 );
 }
 
