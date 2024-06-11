@@ -28,7 +28,7 @@
     gap: 70px;
     left: 20%;
     
-    
+    /* blur effect */
     background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -131,6 +131,75 @@ h1{
 }
 .github, .linkedin{
     height: 45px;
+}
     
 
+/* Proyects page */
+.proyects-section{
+    height: 100dvh;
+    font-family: "Poppins", sans-serif;
+    margin: 0 227.5px;
+    padding: 32px 16px;
+}
+.banner-proyects{
+    display: flex;
+    flex-direction: row;
+    font-weight: 300;
+    font-style: normal;
+    height: 50px;
+}
+.img-logop{
+    width: 36px;
+    height: 40px;
+    padding-right: 6px;
+    padding-top: 12px;
+}
+.proyect-text{
+    font: 42px "Poppins";
+    margin: 0;
+    font-weight: 800;
+}
+
+.proyect-calculator{
+    padding-top: 4vh;
+    height: 96vh;
+    
+    box-sizing: border-box;
+    min-height: fit-content;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.proyect-image{
+    width: 412px;
+    height: 250px;
+    border-radius: 20px;
+}
+.proyect-description{
+    font-size: 26px;
+    margin-top: 16px;
+    color: #343A40;
+    margin-bottom: 0;
+    margin-top: 3px;
+}
+.proyect-short-info{
+    font-size: 14px;
+    color: #343A40;
+}
+.buttons-proyect{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.button-github-code, .button-proyect-info{
+    border-radius: 40px;
+    border: 0.1px solid gray;
+    background-color: white;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: 800;
+    
 }

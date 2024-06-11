@@ -1,11 +1,30 @@
 import LogoP from './assets/logop.png'
+import Proyectimg from './assets/proyectimage.webp'
 
 export const Proyects = () => {
     return(
-        <section>
-            <div>
-                <img src={LogoP} alt="" />
-                <h2>Proyectos</h2>
+        <section className='proyects-section'>
+            <div className='banner-proyects'>
+                <img className='img-logop' src={LogoP} alt="Logo de la programacion" />
+                <h2 className='proyect-text'>Proyectos</h2>
+            </div>
+            <div className='proyect-calculator'>
+                <div className='container-proyect-img'>
+                    <img className='proyect-image' src={Proyectimg} alt="" />
+                </div>
+                <div className='container-proyect-descrip'>
+                    <div>
+                        <h2 className='proyect-description'>Pediatric Percentile Calculator</h2>
+                        <p className='proyect-short-info'>
+                            Calculator for pediatric percentiles, specifically for the weight-for-age, height-for-age, and weight-for-height percentiles. It takes in the child's sex, age (in months or years), height, and weight as inputs and returns the corresponding percentile values.
+                        </p>
+                    </div>
+                    <div className='buttons-proyect'>
+                        <button className='button-github-code'>Code</button>
+                        <button className='button-proyect-info'>Info</button>
+                    </div>
+                    
+                </div>
             </div>
         </section>
     )
