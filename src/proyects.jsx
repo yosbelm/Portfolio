@@ -3,7 +3,7 @@ import Proyectimg from './assets/proyectimage.webp'
 
 export const Proyects = () => {
     return(
-        <section className='proyects-section'>
+        <section id= "proyects" className='proyects-section'>
             <div className='banner-proyects'>
                 <img className='img-logop' src={LogoP} alt="Logo de la programacion" />
                 <h2 className='proyect-text'>Proyectos</h2>
@@ -11,6 +11,7 @@ export const Proyects = () => {
             <div className='proyect-calculator'>
                 <div className='container-proyect-img'>
                     <img className='proyect-image' src={Proyectimg} alt="" />
+                    <p className='proyect-image-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat omnis quae placea</p>
                 </div>
                 <div className='container-proyect-descrip'>
                     <div>
@@ -20,7 +21,7 @@ export const Proyects = () => {
                         </p>
                     </div>
                     <div className='buttons-proyect'>
-                        <button className='button-github-code'>Code</button>
+                        <button className='button-github-code' onClick={()=> location.href = 'https://github.com/yosbelm/pediatric_percentile_calculator'}>Code</button>
                         <button className='button-proyect-info'>Info</button>
                     </div>
                     

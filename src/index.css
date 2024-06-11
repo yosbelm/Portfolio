@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
  
 .section-hero{
-    padding-top: 4vh;
+    padding-top: 10vh;
     height: 96vh;
     margin: 0 10rem;
     box-sizing: border-box;
@@ -27,6 +27,7 @@
     padding-bottom: 20px;
     gap: 70px;
     left: 20%;
+    z-index: 2;
     
     /* blur effect */
     background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
@@ -41,9 +42,16 @@
     color: black;
     font-size: 17px;
 }
+.atrib-moon{
+    width: 24px;
+    height: 24px;
+}
 .atrib:hover{
     color: gray;
 }
+.atrib-moon:hover{
+    transform: scale(1.2);    
+}   
     
     
 
@@ -140,6 +148,7 @@ h1{
     font-family: "Poppins", sans-serif;
     margin: 0 227.5px;
     padding: 32px 16px;
+    padding-top: 80px;
 }
 .banner-proyects{
     display: flex;
@@ -175,6 +184,30 @@ h1{
     height: 250px;
     border-radius: 20px;
 }
+
+.container-proyect-img{
+    position: relative;
+
+}
+
+.container-proyect-img .proyect-image-text{
+    position: absolute;
+    top: -16px;
+    left: 0px;
+    width: 60%;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    opacity: 0;
+    padding: 83px;
+    padding-bottom: 93px;
+    transition: 0.5s;
+}
+.container-proyect-img:hover .proyect-image-text{
+    opacity: 1;
+}
 .proyect-description{
     font-size: 26px;
     margin-top: 16px;
@@ -193,13 +226,29 @@ h1{
 }
 .button-github-code, .button-proyect-info{
     border-radius: 40px;
-    border: 0.1px solid gray;
-    background-color: white;
+    border: none;
+    background-color: #007AFF;
     font-size: 13px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 40px;
     padding-right: 40px;
     font-weight: 800;
-    
+    color: white;
 }
+.button-proyect-info{
+    padding-left: 43px;
+    padding-right: 43px;
+}
+.button-github-code:hover{
+    background-color: #005ECB;
+    color: #ffffff;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    transition: background-color 0.5s ease
+}
+.button-proyect-info:hover{
+    background-color: #005ECB;
+    color: white;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    transition: background-color 0.5s ease
+}  
