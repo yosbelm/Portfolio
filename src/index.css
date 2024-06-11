@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
  
+body{
+    background-color: rgba(170, 170, 170, 0.253);
+}
 .section-hero{
     padding-top: 10vh;
     height: 96vh;
@@ -20,13 +23,13 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    column-gap: 20px;
-    width: 60%;
+    /* column-gap: 10px; */
+    width: 50%;
     position: fixed;
     padding-top: 20px;
     padding-bottom: 20px;
-    gap: 70px;
-    left: 20%;
+    gap: 60px;
+    left: 25%;
     z-index: 2;
     
     /* blur effect */
@@ -35,8 +38,9 @@
     -webkit-backdrop-filter: blur(10px);
     border-radius: 20px;
     border: 1px solid rgba(255,255,255,0.18);
-    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    box-shadow: 0 4px 32px 0 rgba(0,0,0,0.37);
 }
+
 .atrib{
     text-decoration: none;
     color: black;
@@ -59,9 +63,8 @@
 .profile-photo{
     margin-top: 100px;
     border-radius: 25em;
-    size: 30px;
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
     
 }
 .texto-rigth{
@@ -143,6 +146,8 @@ h1{
     
 
 /* Proyects page */
+/*  */
+/*  */
 .proyects-section{
     height: 100dvh;
     font-family: "Poppins", sans-serif;
@@ -156,6 +161,7 @@ h1{
     font-weight: 300;
     font-style: normal;
     height: 50px;
+    padding-bottom: 25px;
 }
 .img-logop{
     width: 36px;
@@ -170,14 +176,19 @@ h1{
 }
 
 .proyect-calculator{
-    padding-top: 4vh;
-    height: 96vh;
-    
+    /* padding-top: 4vh; */
+    height: 252px;
+    width: 870px;
+    /* border: 0.1px solid gray; */
+    border-radius: 20px;
+    background-color: white;
     box-sizing: border-box;
     min-height: fit-content;
     display: flex;
     justify-content: center;
-    gap: 3rem;
+    gap: 2.5rem;
+    padding-top: 1px;
+   
 }
 .proyect-image{
     width: 412px;
@@ -192,8 +203,8 @@ h1{
 
 .container-proyect-img .proyect-image-text{
     position: absolute;
-    top: -16px;
-    left: 0px;
+    top: -17px;
+    left: -1px;
     width: 60%;
     background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
     backdrop-filter: blur(10px);
@@ -201,7 +212,7 @@ h1{
     border-radius: 20px;
     box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
     opacity: 0;
-    padding: 83px;
+    padding: 84px;
     padding-bottom: 93px;
     transition: 0.5s;
 }
@@ -214,10 +225,12 @@ h1{
     color: #343A40;
     margin-bottom: 0;
     margin-top: 3px;
+    padding-top: 18px;
 }
 .proyect-short-info{
     font-size: 14px;
     color: #343A40;
+    padding-left: 6px;
 }
 .buttons-proyect{
     display: flex;

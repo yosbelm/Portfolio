@@ -1,4 +1,4 @@
-import LogoP from './assets/logop.png'
+import LogoP from './assets/curlybrackets.png'
 import Proyectimg from './assets/proyectimage.webp'
 
 export const Proyects = () => {

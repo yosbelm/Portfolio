@@ -1,10 +1,10 @@
- import Moon from "./assets/moon.png"
+ import Moon from "./assets/Moonblack.png"
 
 
 export const Header = () => {
     return (
          
-        <div className="nav">
+        <div id= "#nav" className="nav">
             <div><a href="#proyects" className="atrib">Proyects</a></div>
             <div ><a href="" className="atrib">Skills</a></div>
             <div><a href="" className="atrib">About me</a></div>
