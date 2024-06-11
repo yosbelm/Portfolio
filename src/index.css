@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     gap: 3rem;
-    height: 500vh;
+    height: 100dvh;
 
 }
 .nav{
@@ -19,14 +19,13 @@
 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     column-gap: 20px;
     width: 60%;
     position: fixed;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
+    gap: 70px;
     left: 20%;
     
     
@@ -102,6 +101,10 @@ h1{
     padding-right: 18px;
     font-weight: 800;
 }
+.boton-cv:hover{
+    background-color: black;
+    color: white;
+}
 .boton-contact{
     border-radius: 40px;
     border: 0.1px solid rgb(0, 0, 0);
@@ -114,6 +117,11 @@ h1{
     padding-right: 20px;
     font-weight: 800;
     margin-left: 10px;
+}
+.boton-contact:hover{
+    background-color: white;
+    color: black;
+    border: 0.1px solid gray;
 }
 .social-media{
     margin-top: 25px;
