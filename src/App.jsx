@@ -2,6 +2,7 @@ import './index.css'
 import { Header } from './header';
 import { Hero } from './hero';
 import { Proyects } from './proyects';
+import { Skills } from './skills'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Header/>
       <Hero/>
       <Proyects/>
+      <Skills/>
     </div>
     </>
 
