@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
- 
+
+
 body{
     background-color: rgba(170, 170, 170, 0.185);
 }
@@ -271,6 +272,7 @@ h1{
     color: white;
 }
 .button-github-code:hover{
+    cursor: pointer;
     background-color: #adbed1;
     color: #ffffff;
     box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
@@ -353,7 +355,7 @@ h1{
 /*  */
 /*  */
 .about-section{
-    height: 100dvh;
+    height: 75dvh;
     font-family: "Poppins", sans-serif;
     margin: 0 237.5px;
     padding: 32px 16px;
@@ -432,7 +434,7 @@ h1{
 /*  */
 /*  */
 .contact-section{
-    height: 80dvh;
+    height: 85dvh;
     font-family: "Poppins", sans-serif;
     margin: 0 237.5px;
     padding: 32px 16px;
@@ -444,7 +446,7 @@ h1{
     font-weight: 300;
     font-style: normal;
     height: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     
 }
 .img-contact{
@@ -465,26 +467,79 @@ h1{
     font-size: 25px;
     color: rgba(63, 63, 63, 0.815);
     font-weight: 600;
-    margin-top: 80px;
+    margin-top: 20px;
     margin-bottom: 5px;
 }
 .contact-me-text{
     margin-top: 1px;
     font-size: 50px;
+    margin-bottom: 10px;
 }
+/* email copy */
 .email-container{
     display: flex;
     justify-content: center;
-    border: 0.2px solid black;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 .mail-exterior{
     display: flex;
-    align-items: center;
-    border: 0.1px solid gray;
-    border-radius: 30px;
-    padding-left: 35px;
-    padding-right: 35px;
+    align-items: center;    
 } 
 .email-text{
+    font: 18px "Poppins";
+    /* padding-right: 1rem; */
     
-}   
+} 
+.button-copy-mail{
+    height: 50px;
+    width: 50px;
+    border: none;
+}  
+
+
+.mail-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.email-field-not-button{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.email-field-text, .email-field-email, .email-field-message{
+    height: 40px;
+    padding-left: 16px;
+    width: 350px;
+    border-radius: 20px;
+    border: 1px solid #888;
+    box-sizing: border-box;
+    justify-self: center;
+}
+.email-field-message{
+    padding-top: 16px;
+    resize: none;
+    height: 180px;
+}
+.email-field-email, .email-field-message, .email-field-text::placeholder{
+    font-size: 14px;
+}
+.email-submit-button{
+    background-color: #007bffd2;
+    color: white ;
+    border: none;
+    border-radius: 20px;
+    width: 126px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+} 
+.email-submit-button:hover{
+    cursor: pointer;
+    background-color: #adbed1;
+    /* color: #0e0d0d8e; */
+    border: 1px solid #adbed1;
+}  
