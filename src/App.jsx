@@ -4,7 +4,7 @@ import { Hero } from './hero';
 import { Proyects } from './proyects';
 import { Skills } from './skills'
 import { About } from './about';
-
+import { ContactMe } from './contact';
 
 function App() {
   
@@ -17,6 +17,7 @@ function App() {
       <Proyects/>
       <Skills/>
       <About/>
+      <ContactMe/>
     </div>
     </>
 

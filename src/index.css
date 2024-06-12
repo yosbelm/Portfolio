@@ -425,5 +425,66 @@ h1{
 }
 .text-about-me-1{
     margin-top: 15px;
+}
+ 
+
+/* Contact*/
+/*  */
+/*  */
+.contact-section{
+    height: 80dvh;
+    font-family: "Poppins", sans-serif;
+    margin: 0 237.5px;
+    padding: 32px 16px;
+    padding-top: 80px;
+}
+.banner-contact{
+    display: flex;
+    flex-direction: row;
+    font-weight: 300;
+    font-style: normal;
+    height: 50px;
+    padding-bottom: 30px;
     
 }
+.img-contact{
+    width: 50px;
+    height: 50px;
+    padding-right: 6px;
+    padding-top: 2px;
+}
+.contact-text{
+    font: 42px "Poppins";
+    margin: 0;
+    font-weight: 800;
+}
+
+.get-touch-text, .contact-me-text{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: rgba(63, 63, 63, 0.815);
+    font-weight: 600;
+    margin-top: 80px;
+    margin-bottom: 5px;
+}
+.contact-me-text{
+    margin-top: 1px;
+    font-size: 50px;
+}
+.email-container{
+    display: flex;
+    justify-content: center;
+    border: 0.2px solid black;
+}
+.mail-exterior{
+    display: flex;
+    align-items: center;
+    border: 0.1px solid gray;
+    border-radius: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+} 
+.email-text{
+    
+}   
