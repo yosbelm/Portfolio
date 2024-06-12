@@ -81,17 +81,19 @@ body{
 }
 .hello{
     margin: 5px;
-    padding-left: 60px;
+    /* padding-left: 60px; */
     color: rgba(63, 63, 63, 0.815);
     font-size: 25px;
 }
 .Yosbel{
-    padding-left: 35px;
+    display: flex;
+    justify-content: center;
     
 }
 .frontend{
     padding-left: 5px;
     margin-top: 5px;
+    margin-bottom: 10px;
     font-size: 25px;
     color: rgba(63, 63, 63, 0.815);
     font-weight: 600;
@@ -100,7 +102,9 @@ h1{
     font-size: 50px;
     margin: 2px;
 }
-
+.boton-container{
+    margin-top: 15px;
+}
 .boton-cv{
     border-radius: 40px;
     border: 0.1px solid gray;
@@ -149,7 +153,7 @@ h1{
 /*  */
 /*  */
 .proyects-section{
-    height: 50dvh;
+    height: 75dvh;
     font-family: "Poppins", sans-serif;
     margin: 0 237.5px;
     padding: 32px 16px;
@@ -241,6 +245,8 @@ h1{
     font-size: 14px;
     color: #343A40;
     padding-left: 6px;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 .buttons-proyect{
     display: flex;
@@ -252,6 +258,8 @@ h1{
     border: none;
     background-color: #007AFF;
     font-size: 13px;
+    margin-right: 45px;
+    margin-top: 10px;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 30px;
@@ -308,27 +316,29 @@ h1{
     font-weight: 800;
 }
 
+
+/* Logos */
 .logos-prog img{
     width: 80px;
     height: 80px;
-    
 }
 .logos-prog img:hover{
     transform: scale(1.1);
-    
 }
+.frontend-logo, .backend-logo, p{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+}   
 .frontend-logo, .backend-logo{
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
     padding-bottom: 30px;
 }
-.python-logo{
-    width: 100px;
-    height: 100px;
-}
-.technologys-logo{
+.tech-logo{
     display: flex;
-    justify-content: center;
-    gap: 6rem;
+    justify-content: space-evenly;
+    gap: 1rem;
 }

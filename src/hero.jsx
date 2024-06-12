@@ -1,4 +1,4 @@
-import Profile from "./assets/photo_2024-05-19_16-54-22.jpg"
+import Profile from "./assets/hero-banner.jpg"
 import GitHub from "./assets/github.png"
 import Linkedin from "./assets/linkedin.png"
 
@@ -13,7 +13,7 @@ export const Hero = () => {
                 <div className="hero-text">
                     <p className="hello">Hello, I'm</p>
                     <h1 className="Yosbel">Yosbel</h1>
-                    <p className="frontend">FrontEnd developer</p>
+                    <p className="frontend">FrontEnd Developer</p>
                 </div>
                 <div className="boton-container">
                     <button className="boton-cv" onClick="">Download CV</button>

@@ -6,7 +6,7 @@ import React from './assets/react.svg'
 import Python from './assets/python.svg'
 import Pandas from './assets/pandas.png'
 import GitHub from './assets/github.png'
-import Git from './assets/git.png'
+import Git from './assets/git.svg'
 import VSC from './assets/vsc.png'
 import Flet from './assets/flet.png'
 
@@ -20,20 +20,50 @@ export const Skills = () => {
             </div>
             <div className='logos-prog'>
                 <div className='frontend-logo'>
-                    <img src={JavaScript} alt="Javascript logo" />
-                    <img src={HTML} alt="HTML logo" />
-                    <img src={CSS} alt="CSS logo" />
-                    <img src={React} alt="React logo" />
+                    <div className='js-div'>
+                        <img src={JavaScript} alt="Javascript logo" />
+                        <p>Javascript</p>
+                    </div>
+                    <div className='html-div'>
+                        <img src={HTML} alt="HTML logo" />
+                        <p>HTML5</p>
+                    </div>
+                    <div className='css-div'>
+                         <img src={CSS} alt="CSS logo" />
+                         <p>CSS3</p>
+                    </div>
+                    <div className='react-div'>
+                         <img src={React} alt="React logo" />
+                         <p>React</p>
+                    </div>
                 </div>
                 <div className='backend-logo'>
-                    <img   src={Python} alt="Python logo" />
-                    <img src={Pandas} alt="Pandas logo" />
-                    <img src={JavaScript} alt="Javascript logo" />
+                    <div>
+                        <img src={Python} alt="Python logo" />
+                        <p>Python</p>
+                    </div>
+                    <div>
+                        <img src={Pandas} alt="Pandas logo" />
+                        <p>Pandas</p>
+                    </div>
+                    <div>
+                        <img src={JavaScript} alt="Flet logo" />
+                        <p>Flet</p>
+                    </div>
                 </div>
-                <div className='technologys-logo'>
-                    <img src={GitHub} alt="GitHub logo" />
-                    <img src={VSC} alt="Visual Studio Code logo" />
-                    <img src={Git} alt="Git logo" />
+                <div className='tech-logo'>
+                    <div>
+                        <img src={GitHub} alt="GitHub logo" />
+                        <p>GitHub</p>
+                    </div>
+                    <div>
+                        <img src={VSC} alt="Visual Studio Code logo" />
+                        <p>VSC</p>
+                    </div>
+                    <div>
+                        <img src={Git} alt="Git logo" />
+                        <p>Git</p>
+                    </div>
                 </div>
             </div>
         </section>
