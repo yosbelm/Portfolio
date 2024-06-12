@@ -1,5 +1,5 @@
 import Person from './assets/about-banner.png'
-import Profile from "./assets/hero-banner.jpg"
+import Profile from "./assets/profile-pic-job.jpeg"
 
 export const About = () => {
     return(
