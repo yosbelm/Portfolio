@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
  
 body{
     background-color: rgba(170, 170, 170, 0.185);
@@ -217,7 +218,7 @@ h1{
     box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
     opacity: 0;
     padding: 79px;
-    padding-bottom: 125px;
+    padding-bottom: 105px;
     transition: 0.5s;
 }
 .container-proyect-img:hover .proyect-image-text{
@@ -228,6 +229,7 @@ h1{
     /* background-color: black; */
     display: flex;
     justify-content: center;
+    padding-top: 20px;
     gap: 20px;
 }
 .flet-logo{
@@ -256,7 +258,7 @@ h1{
 .button-github-code{
     border-radius: 40px;
     border: none;
-    background-color: #007AFF;
+    background-color: #007bffd2;
     font-size: 13px;
     margin-right: 45px;
     margin-top: 10px;
@@ -268,7 +270,7 @@ h1{
     color: white;
 }
 .button-github-code:hover{
-    background-color: #005ECB;
+    background-color: #adbed1;
     color: #ffffff;
     box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
     transition: background-color 0.5s ease
@@ -309,6 +311,7 @@ h1{
     height: 35px;
     padding-right: 6px;
     padding-top: 12px;
+    padding-right: 15px;
 }
 .skills-text{
     font: 42px "Poppins";
@@ -341,4 +344,84 @@ h1{
     display: flex;
     justify-content: space-evenly;
     gap: 1rem;
+}
+
+
+/* About*/
+/*  */
+/*  */
+.about-section{
+    height: 100dvh;
+    font-family: "Poppins", sans-serif;
+    margin: 0 237.5px;
+    padding: 32px 16px;
+    padding-top: 80px;
+}
+.banner-about{
+    display: flex;
+    flex-direction: row;
+    font-weight: 300;
+    font-style: normal;
+    height: 50px;
+    padding-bottom: 30px;
+    
+}
+.img-person{
+    width: 50px;
+    height: 50px;
+    padding-right: 6px;
+    padding-top: 2px;
+}
+.about-text{
+    font: 42px "Poppins";
+    margin: 0;
+    font-weight: 800;
+}
+.about-general{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    height: 252px;
+    width: 850px;
+}
+.profile-picture-about-me-div{
+    height: 330px;
+    display: flex;
+    align-items: center;
+}
+.profile-picture-about-me{
+    height: 220px;
+    width: 220px;
+    border-radius: 4rem;
+    transform: rotate(-4deg);
+    box-shadow: 9px 9px 32px 0 rgba(0,0,0,0.37);
+}
+.about-me-cards{
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5rem;
+}
+.about-me-cards h3{
+    font-family: "Figtree";
+}   
+.card-about-me-left, .card-about-me-right{
+    border-radius: 35px;
+    border: 0.1px solid gray;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.text-about-me p{
+    padding-top: 10px;
+    font-family: "Figtree", "Poppins";
+    font-size: 17px;
+    color: #343A40;
+    font-weight: 400;
+    margin-left: 50px;
+    margin-right: 15px;
+}
+.text-about-me-1{
+    margin-top: 15px;
+    
 }
