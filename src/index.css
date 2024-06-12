@@ -182,7 +182,7 @@ h1{
 
 .proyect-calculator{
     /* padding-top: 4vh; */
-    height: 252px;
+    height: 250px;
     width: 850px;
     /* border: 0.1px solid rgb(138, 136, 136); */
     border-radius: 20px;
@@ -192,7 +192,8 @@ h1{
     display: flex;
     justify-content: center;
     gap: 2.5rem;
-    padding-top: 1px;
+    padding-top: 0px;
+    box-shadow: 2px 4px 32px 0 rgba(0,0,0,0.37);
    
 }
 .proyect-image{
@@ -273,7 +274,8 @@ h1{
     background-color: #adbed1;
     color: #ffffff;
     box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
-    transition: background-color 0.5s ease
+    /* transition: background-color 0.5s ease; */
+    border: 1px solid #adbed1;
 } 
 .code-github-button{
     display: flex;
@@ -394,7 +396,7 @@ h1{
     width: 220px;
     border-radius: 4rem;
     transform: rotate(-4deg);
-    box-shadow: 9px 9px 32px 0 rgba(0,0,0,0.37);
+    box-shadow: 9px 9px 18px 0 rgba(0,0,0,0.37);
 }
 .about-me-cards{
     display: flex;
