@@ -3,9 +3,9 @@ import JavaScript from './assets/jscript.svg'
 import HTML from './assets/html.svg'
 import CSS from './assets/css.svg'
 import React from './assets/react.svg'
-import Python from './assets/python.svg'
+import Python from './assets/piton.png'
 import Pandas from './assets/pandas.png'
-import GitHub from './assets/github.png'
+import GitHub from './assets/github-skill-light.png'
 import Git from './assets/git.svg'
 import VSC from './assets/vsc.png'
 import Flet from './assets/flet.png'
@@ -22,7 +22,7 @@ export const Skills = () => {
                 <div className='frontend-logo'>
                     <div className='js-div'>
                         <img src={JavaScript} alt="Javascript logo" />
-                        <p>Javascript</p>
+                        <p>JavaScript</p>
                     </div>
                     <div className='html-div'>
                         <img src={HTML} alt="HTML logo" />
@@ -47,7 +47,7 @@ export const Skills = () => {
                         <p>Pandas</p>
                     </div>
                     <div>
-                        <img src={JavaScript} alt="Flet logo" />
+                        <img src={Flet} alt="Flet logo" />
                         <p>Flet</p>
                     </div>
                 </div>
