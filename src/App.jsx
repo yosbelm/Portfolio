@@ -1,6 +1,6 @@
 import './index.css'
 import { Header } from './header';
-import { Hero } from './hero';
+import { Hero } from './Hero/Hero';
 import { Proyects } from './proyects';
 import { Skills } from './skills'
 import { About } from './about';

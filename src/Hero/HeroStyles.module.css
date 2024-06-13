@@ -1,0 +1,98 @@
+.container{
+    height: 90dvh;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding-top: 8dvh;
+}
+
+.profilePhoto{
+    margin-top: 100px;
+    border-radius: 25em;
+    height: 350px;
+    width: 350px;
+    
+}
+.textoRigth{
+    margin-top: 10px;
+}
+.heroText{
+    font-size: 20px;
+    margin-top: 100px;
+    
+    align-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    
+}
+.hello{
+    margin: 5px;
+    /* padding-left: 60px; */
+    color: rgba(63, 63, 63, 0.815);
+    font-size: 25px;
+}
+.Yosbel{
+    display: flex;
+    justify-content: center;
+    
+}
+.frontend{
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: rgba(63, 63, 63, 0.815);
+    font-weight: 600;
+}
+h1{
+    font-size: 50px;
+    margin: 2px;
+}
+.botonContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.botonCv{
+    border-radius: 40px;
+    border: 0.1px solid gray;
+    background-color: white;
+    font-size: 13px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-weight: 800;
+}
+.botonCv:hover{
+    background-color: black;
+    color: white;
+}
+.botonContact{
+    border-radius: 40px;
+    border: 0.1px solid rgb(0, 0, 0);
+    color: white;
+    background-color: black;
+    font-size: 13px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: 800;
+    margin-left: 10px;
+}
+/* .botonContact:hover{
+    background-color: white;
+    color: black;
+    border: 0.1px solid gray;
+} */
+.socialMedia{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.github, .linkedin{
+    height: 45px;
+}
+    
