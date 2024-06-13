@@ -1,7 +1,7 @@
 import './index.css'
 import { Header } from './Header/Header';
 import { Hero } from './Hero/Hero';
-import { Proyects } from './proyects';
+import { Proyects } from './Proyects/Proyects';
 import { Skills } from './Skills/Skills'
 import { About } from './about';
 import { ContactMe } from './contact';
