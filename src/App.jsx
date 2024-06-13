@@ -3,7 +3,7 @@ import { Header } from './Header/Header';
 import { Hero } from './Hero/Hero';
 import { Proyects } from './Proyects/Proyects';
 import { Skills } from './Skills/Skills'
-import { About } from './about';
+import { About } from './AboutMe/AboutMe';
 import { ContactMe } from './contact';
 import { Footer } from './Footer/Footer';
 
