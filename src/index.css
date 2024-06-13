@@ -6,58 +6,8 @@ body{
     background-color: rgba(170, 170, 170, 0.185);
     font-family: "Poppins", "Figtree";
 }
-.section-hero{
-    padding-top: 10vh;
-    height: 96vh;
-    margin: 0 10rem;
-    box-sizing: border-box;
-    min-height: fit-content;
-    display: flex;
-    justify-content: center;
-    gap: 3rem;
-    height: 100dvh;
 
-}
-.nav{
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    /* column-gap: 10px; */
-    width: 50%;
-    position: fixed;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    gap: 60px;
-    left: 25%;
-    z-index: 2;
-    
-    /* blur effect */
-    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 20px;
-    border: 1px solid rgba(255,255,255,0.18);
-    box-shadow: 0 4px 32px 0 rgba(0,0,0,0.37);
-}
-
-.atrib{
-    text-decoration: none;
-    color: black;
-    font-size: 17px;
-}
-.atrib-moon{
-    width: 24px;
-    height: 24px;
-}
-.atrib:hover{
-    color: gray;
-}
-.atrib-moon:hover{
-    transform: scale(1.2);    
-}   
+  
     
     
 

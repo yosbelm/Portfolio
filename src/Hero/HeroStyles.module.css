@@ -1,9 +1,13 @@
 .container{
-    height: 90dvh;
+    padding-top: 10vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
     display: flex;
     justify-content: center;
     gap: 3rem;
-    padding-top: 8dvh;
+    height: 100dvh;
 }
 
 .profilePhoto{

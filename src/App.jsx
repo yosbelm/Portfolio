@@ -1,5 +1,5 @@
 import './index.css'
-import { Header } from './header';
+import { Header } from './Header/Header';
 import { Hero } from './Hero/Hero';
 import { Proyects } from './proyects';
 import { Skills } from './skills'

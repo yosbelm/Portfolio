@@ -1,0 +1,40 @@
+.nav{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* column-gap: 10px; */
+    width: 50%;
+    position: fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 60px;
+    left: 25%;
+    z-index: 2;
+    
+    /* blur effect */
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 4px 32px 0 rgba(0,0,0,0.37);
+}
+
+.atrib{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+.atribMoon{
+    width: 24px;
+    height: 24px;
+}
+.atrib:hover{
+    color: gray;
+}
+.atribMoon:hover{
+    transform: scale(1.2);    
+} 
