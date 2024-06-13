@@ -1,0 +1,55 @@
+
+.skillsSection{
+    height: 75dvh;
+    font-family: "Poppins", sans-serif;
+    margin: 0 237.5px;
+    padding: 32px 16px;
+    padding-top: 80px;
+}
+.bannerSkills{
+    display: flex;
+    flex-direction: row;
+    font-weight: 300;
+    font-style: normal;
+    height: 50px;
+    padding-bottom: 30px;
+}
+.imgBrain{
+    width: 36px;
+    height: 35px;
+    padding-right: 6px;
+    padding-top: 12px;
+    padding-right: 15px;
+}
+.skillsText{
+    font: 42px "Poppins";
+    margin: 0;
+    font-weight: 800;
+}
+
+
+/* Logos */
+.logosProg img{
+    width: 80px;
+    height: 80px;
+}
+.logosProg img:hover{
+    transform: scale(1.1);
+}
+.frontendLogo, .backendLogo, p{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+}   
+.frontendLogo, .backendLogo{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+.techLogo{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}

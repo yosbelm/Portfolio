@@ -1,43 +1,43 @@
-import BrainWhite from './assets/brainwhite.png'
-import JavaScript from './assets/jscript.svg'
-import HTML from './assets/html.svg'
-import CSS from './assets/css.svg'
-import React from './assets/react.svg'
-import Python from './assets/piton.png'
-import Pandas from './assets/pandas.png'
-import GitHub from './assets/github-skill-light.png'
-import Git from './assets/git.svg'
-import VSC from './assets/vsc.png'
-import Flet from './assets/flet.png'
-
+import BrainWhite from '../../src/assets/brainwhite.png'
+import JavaScript from '../../src/assets/jscript.svg'
+import HTML from '../../src/assets/html.svg'
+import CSS from '../../src/assets/css.svg'
+import React from '../../src/assets/react.svg'
+import Python from '../../src/assets/piton.png'
+import Pandas from '../../src/assets/pandas.png'
+import GitHub from '../../src/assets/github-skill-light.png'
+import Git from '../../src/assets/git.svg'
+import VSC from '../../src/assets/vsc.png'
+import Flet from '../../src/assets/flet.png'
+import styles from './SkillsStyles.module.css'
 
 export const Skills = () => {
     return(
-        <section className="skills-section" id="skills">
-            <div className='banner-skills'>
-                <img className='img-brain' src={BrainWhite} alt="brain" />
-                <h2 className='skills-text'>Skills</h2>
+        <section className={styles.skillsSection} id="skills">
+            <div className={styles.bannerSkills}>
+                <img className={styles.imgBrain} src={BrainWhite} alt="brain" />
+                <h2 className={styles.skillsText}>Skills</h2>
             </div>
-            <div className='logos-prog'>
-                <div className='frontend-logo'>
-                    <div className='js-div'>
+            <div className={styles.logosProg}>
+                <div className={styles.frontendLogo}>
+                    <div className={styles.jsDiv}>
                         <img src={JavaScript} alt="Javascript logo" />
                         <p>JavaScript</p>
                     </div>
-                    <div className='html-div'>
+                    <div className={styles.htmlDiv}>
                         <img src={HTML} alt="HTML logo" />
                         <p>HTML5</p>
                     </div>
-                    <div className='css-div'>
+                    <div className={styles.cssDiv}>
                          <img src={CSS} alt="CSS logo" />
                          <p>CSS3</p>
                     </div>
-                    <div className='react-div'>
+                    <div className={styles.reactDiv}>
                          <img src={React} alt="React logo" />
                          <p>React</p>
                     </div>
                 </div>
-                <div className='backend-logo'>
+                <div className={styles.backendLogo}>
                     <div>
                         <img src={Python} alt="Python logo" />
                         <p>Python</p>
@@ -51,7 +51,7 @@ export const Skills = () => {
                         <p>Flet</p>
                     </div>
                 </div>
-                <div className='tech-logo'>
+                <div className={styles.techLogo}>
                     <div>
                         <img src={GitHub} alt="GitHub logo" />
                         <p>GitHub</p>
