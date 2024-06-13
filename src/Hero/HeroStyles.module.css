@@ -99,4 +99,39 @@ h1{
 .github, .linkedin{
     height: 45px;
 }
-    
+
+@media (width <= 800px){
+    .container{
+        /* background-color: green; */
+        height: 100vh;
+        flex-wrap: wrap;
+        display: flex;
+        align-content: center;
+        gap: 1rem;
+       
+    }
+
+    .profilePicDiv{
+        display: block;
+        background-color: blue;
+        height: 250px;
+        margin-top: 0;
+    }
+    .profilePhoto{
+        margin-top: 0;
+        height: 250px;
+        width: 250px;
+    }
+    .textoRigth{
+        background-color: yellow;
+        margin-top: 0px;
+        padding: 20px;
+    }   
+    .heroText{
+        padding-top: 10px;
+        margin-top: 0;
+    }
+    .frontend{
+        width: 250px;
+    }
+}

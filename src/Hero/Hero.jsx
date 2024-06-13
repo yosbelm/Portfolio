@@ -5,8 +5,8 @@ import styles from './HeroStyles.module.css'
 
 export const Hero = () => {
     return (
-        <section className={styles.container}>
-            <div>
+        <section id="hero" className={styles.container}>
+            <div className={styles.profilePicDiv}>
                 <img  className={styles.profilePhoto} src={Profile} alt="Profile picture" />
             </div>
             <div className={styles.textoRigth}>

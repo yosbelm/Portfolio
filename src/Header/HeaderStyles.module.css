@@ -8,8 +8,8 @@
     /* column-gap: 10px; */
     width: 50%;
     position: fixed;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     gap: 60px;
     left: 25%;
     z-index: 2;
@@ -18,7 +18,7 @@
     background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border-radius: 20px;
+    border-radius: 30px;
     border: 1px solid rgba(255,255,255,0.18);
     box-shadow: 0 4px 32px 0 rgba(0,0,0,0.37);
 }
@@ -38,3 +38,44 @@
 .atribMoon:hover{
     transform: scale(1.2);    
 } 
+@media (width <= 1100px){
+    .nav{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        gap: 2rem;
+        width: fit-content;
+    }
+    .atrib{
+        font-size: 14px;
+    }
+    .atribMoon{
+        width: 21px;
+        height: 21px;
+        margin-top: 1px;
+    }
+}
+@media (width <= 600px){
+    .nav{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 1rem;
+        width: fit-content;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .atrib{
+        font-size: 13px;
+    }
+    .atribMoon{
+        width: 18px;
+        height: 18px;
+        margin-top: 3px;
+    }
+}
