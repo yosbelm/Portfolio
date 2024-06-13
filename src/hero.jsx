@@ -17,7 +17,7 @@ export const Hero = () => {
                 </div>
                 <div className="boton-container">
                     <button className="boton-cv" onClick="">Download CV</button>
-                    <button className="boton-contact" onClick={"location.href('./#contact')"}>Contact info</button>
+                    <button className="boton-contact" onClick={"location.href('./#contact')"}>Email</button>
                 </div>
                 <div className="social-media">
                     <img src={GitHub} alt="GitHub logo" 

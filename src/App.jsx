@@ -5,6 +5,7 @@ import { Proyects } from './proyects';
 import { Skills } from './skills'
 import { About } from './about';
 import { ContactMe } from './contact';
+import { Footer } from './Footer/Footer';
 
 function App() {
   
@@ -18,6 +19,7 @@ function App() {
       <Skills/>
       <About/>
       <ContactMe/>
+      <Footer/>
     </div>
     </>
 

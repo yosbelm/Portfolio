@@ -4,6 +4,7 @@
 
 body{
     background-color: rgba(170, 170, 170, 0.185);
+    font-family: "Poppins", "Figtree";
 }
 .section-hero{
     padding-top: 10vh;
@@ -221,7 +222,7 @@ h1{
     opacity: 0;
     padding: 79px;
     padding-bottom: 105px;
-    transition: 0.5s;
+    transition: 0.1s;
 }
 .container-proyect-img:hover .proyect-image-text{
     opacity: 1;
@@ -275,9 +276,8 @@ h1{
     cursor: pointer;
     background-color: #adbed1;
     color: #ffffff;
-    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
-    /* transition: background-color 0.5s ease; */
-    border: 1px solid #adbed1;
+    box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.479);
+    transform: scale(1.05);
 } 
 .code-github-button{
     display: flex;
@@ -496,7 +496,10 @@ h1{
     width: 50px;
     border: none;
 }  
-
+.button-copy-mail:hover{
+    transform: translate(1px, 1px);
+    cursor: pointer;
+}
 
 .mail-container{
     display: flex;
@@ -540,6 +543,7 @@ h1{
 .email-submit-button:hover{
     cursor: pointer;
     background-color: #adbed1;
-    /* color: #0e0d0d8e; */
     border: 1px solid #adbed1;
+    transform: scale(1.05);
+    transform: translateY(2px);
 }  
