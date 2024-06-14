@@ -52,7 +52,7 @@
 
 }
 
-.containerProyectImg .proyectImageText{
+.proyectImageText{
     position: absolute;
     top: -1px;
     left: -1px;
@@ -153,21 +153,24 @@
         margin-left: 0;
         padding-left: 0;
         gap: 1rem;
-        
+    }   
+    .proyectImageDiv{
+        width: 100%;
+        height: 250px;
+        border-radius: 20px;
     }
-    .containerProyectImg .proyectImageText{
+    .containerProyectImg{
+        width: fit-content;
+    } 
+    .proyectImageText{
         position: absolute;
-        top: -1px;
-        left: -1px;
-        width: 57%;
+        width: 61%;
         background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
         border-radius: 20px;
         box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
         opacity: 0;
-        padding: 79px;
-        padding-bottom: 105px;
         transition: 0.1s;
     }
     .bannerProyects{
@@ -203,10 +206,5 @@
         padding-right: 10px;
         padding-top: 10px;
         padding-bottom: 15px;
-    }   
-    .proyectImage{
-        width: 100%;
-        height: 250px;
-        border-radius: 20px;
-    }
+    }       
 }

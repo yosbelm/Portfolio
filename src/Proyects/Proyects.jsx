@@ -15,7 +15,9 @@ export const Proyects = () => {
             </div>
             <div className={styles.proyectCalculator}>
                 <div className={styles.containerProyectImg}>
-                    <img className={styles.proyectImage} src={Proyectimg} alt="" /> 
+                    <div className={styles.proyectImageDiv}>
+                        <img className={styles.proyectImage} src={Proyectimg} alt="" />
+                    </div> 
                     <div className={styles.proyectImageText}>
                         <div className={styles.techUsed}>
                             <img src={Python} alt="Python logo" />
