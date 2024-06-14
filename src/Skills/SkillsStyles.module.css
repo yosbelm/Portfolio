@@ -53,3 +53,34 @@
     justify-content: space-evenly;
     gap: 1rem;
 }
+
+/* ///////////////////////////////// */
+@media (width <= 600px){
+    .skillsSection{
+        margin: 0;
+        padding: 0;
+        height: 100dvh;
+    }
+    .bannerSkills{
+        display: flex;
+        justify-content: center;
+    }
+    .logosProg{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+    }
+    .logosProg img{
+        width: 75px;
+        height: 75px;
+    }
+    .frontendLogo, .backendLogo, .techLogo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .frontendLogo{
+        padding-left: 5px;
+    }
+}

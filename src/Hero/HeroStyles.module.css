@@ -99,8 +99,9 @@ h1{
 .github, .linkedin{
     height: 45px;
 }
+/* /////////////////////////////////////////////////////// */
 
-@media (width <= 800px){
+@media screen and (width <= 700px){
     .container{
         /* background-color: green; */
         height: 100vh;
@@ -108,14 +109,15 @@ h1{
         display: flex;
         align-content: center;
         gap: 1rem;
-       
+        margin: 0;
+        padding: 0;
     }
 
     .profilePicDiv{
         display: block;
-        background-color: blue;
+        /* background-color: blue; */
         height: 250px;
-        margin-top: 0;
+        margin-top: 5dvh;
     }
     .profilePhoto{
         margin-top: 0;
@@ -123,15 +125,40 @@ h1{
         width: 250px;
     }
     .textoRigth{
-        background-color: yellow;
+        /* background-color: yellow; */
         margin-top: 0px;
-        padding: 20px;
+        padding: 15px;
     }   
     .heroText{
-        padding-top: 10px;
+        padding-top: 1px;
         margin-top: 0;
     }
+    .hello{
+        /* margin: 0px; */
+        font-size: 17px;
+    }
+    .Yosbel{
+        font-size: 25px;
+    }
     .frontend{
+        font-size: 17px;
         width: 250px;
+    }
+    .botonCv{
+        font-size: 11px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-weight: 800;
+    }
+    .botonContact{
+        font-size: 11px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 35px;
+        padding-right: 35px;
+        font-weight: 800;
+        margin-left: 10px;
     }
 }

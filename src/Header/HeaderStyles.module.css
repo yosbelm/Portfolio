@@ -38,18 +38,21 @@
 .atribMoon:hover{
     transform: scale(1.2);    
 } 
-@media (width <= 1100px){
+
+/* /////////////////////////////////////// */
+
+@media (width <= 700px){
     .nav{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         flex-wrap: wrap;
-        
-        padding-left: 15px;
-        padding-right: 15px;
+        width: 90%;
+        left: 5%;
+
         padding-top: 10px;
         padding-bottom: 10px;
-        gap: 2rem;
-        width: fit-content;
+        gap: 0;
+        
     }
     .atrib{
         font-size: 14px;
@@ -60,22 +63,4 @@
         margin-top: 1px;
     }
 }
-@media (width <= 600px){
-    .nav{
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        gap: 1rem;
-        width: fit-content;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    .atrib{
-        font-size: 13px;
-    }
-    .atribMoon{
-        width: 18px;
-        height: 18px;
-        margin-top: 3px;
-    }
-}
+

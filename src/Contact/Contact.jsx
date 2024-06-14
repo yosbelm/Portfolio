@@ -13,7 +13,7 @@ export const ContactMe = () => {
         })
         .catch(err => {
             console.error('Error al copiar el correo al portapapeles: ', err);
-        });
+        }); 
     };
 
     return(

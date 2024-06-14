@@ -72,3 +72,44 @@
 .textAboutMeOne{
     margin-top: 15px;
 }
+
+/* /////////////////////////////////////////////////// */
+
+@media (width <= 600px){
+    .aboutSection{
+        margin: 0;
+        padding: 0;
+        height: 100dvh;
+        margin-bottom: 150px;
+    }
+    .bannerAbout{
+        display: flex;
+        justify-content: center;
+    }
+    .aboutGeneral{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+    }
+    .profilePictureAboutMe{
+        display: flex;
+        justify-content: center;
+    } 
+    .aboutMeCards{
+        display: flex;
+        justify-content: space-between;
+    }   
+    .cardAboutMeLeft, .cardAboutMeRight{
+        padding: 15px 45px;
+        margin: 0;
+    }
+    .textAboutMe p{
+        padding: 0;
+        padding-top: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+}

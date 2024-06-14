@@ -5,3 +5,16 @@
     color: #6b7280;
     font-size: 17px;
 }
+
+/* ///////////////////////////////// */
+
+@media (width <= 600px){
+    .container{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+}

@@ -134,3 +134,78 @@
     font-size: 18px;
     margin: 0;
 }
+/* ///////////////////////////////////////// */
+
+@media(width <= 700px){
+    .proyectsSection{
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        margin-bottom: 20px;
+    }
+    .proyectCalculator{
+        height: 460px;
+        width: 370px;
+        display: flex;
+        flex-wrap: wrap;
+        /* align-content: center; */
+        margin-left: 0;
+        padding-left: 0;
+        gap: 1rem;
+        
+    }
+    .containerProyectImg .proyectImageText{
+        position: absolute;
+        top: -1px;
+        left: -1px;
+        width: 60%;
+        background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 20px;
+        box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+        opacity: 0;
+        padding: 79px;
+        padding-bottom: 105px;
+        transition: 0.1s;
+    }
+    .bannerProyects{
+        display: flex;
+        justify-content: center;
+    }
+    .proyectDescription{
+        display: flex;
+        justify-content: center;
+        font-size: 24px;
+        margin-top: 16px;
+        color: #343A40;
+        margin-bottom: 0;
+        margin-top: 3px;
+        padding-top: 0px;
+    }
+    .buttonGithubCode{
+        display: flex;
+        justify-content: center;
+        font-size: 13px;
+        margin-right: 0px;
+        margin-top: 0px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .proyectShortInfo{
+        display: flex;
+        justify-content: center;
+        font-size: 13px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }   
+    .proyectImage{
+        width: 370px;
+        height: 250px;
+        border-radius: 20px;
+    }
+}
