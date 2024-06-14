@@ -122,8 +122,12 @@
         width: 100%;
         height: 100dvh;
         margin-top: 50px;
+        padding-top: 65px;
     }.bannerContact{
         display: flex;
         justify-content: center;
+    }
+    .emailSubmitButton{
+        margin-top: 10px;
     }
 }

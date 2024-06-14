@@ -13,7 +13,7 @@ export const Hero = () => {
                 <div className={styles.heroText}>
                     <p className={styles.hello}>Hello, I'm</p>
                     <h1 className={styles.Yosbel}>Yosbel</h1>
-                    <p className={styles.frontend}>FrontEnd Developer</p>
+                    <p className={styles.frontend}>FullStack Developer</p>
                 </div>
                 <div className={styles.botonContainer}>
                     <button className={styles.botonCv} onClick="">Download CV</button>

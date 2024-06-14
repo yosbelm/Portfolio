@@ -59,7 +59,8 @@
     .skillsSection{
         margin: 0;
         padding: 0;
-        height: 100dvh;
+        height: 80dvh;
+        padding-top: 65px;
     }
     .bannerSkills{
         display: flex;

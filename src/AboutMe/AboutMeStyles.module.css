@@ -79,12 +79,14 @@
     .aboutSection{
         margin: 0;
         padding: 0;
-        height: 100dvh;
+        height: 95dvh;
         margin-bottom: 150px;
+        padding-top: 65px;
     }
     .bannerAbout{
         display: flex;
         justify-content: center;
+        padding-bottom: 0;
     }
     .aboutGeneral{
         display: flex;
@@ -96,13 +98,18 @@
     .profilePictureAboutMe{
         display: flex;
         justify-content: center;
+        height: 200px;
+        width: 200px;
+        
     } 
     .aboutMeCards{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }   
     .cardAboutMeLeft, .cardAboutMeRight{
-        padding: 15px 45px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 2px;
         margin: 0;
     }
     .textAboutMe p{
