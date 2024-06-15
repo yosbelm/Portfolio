@@ -29,12 +29,18 @@ export const ContactMe = () => {
             <div className={styles.emailContainer}>
                 <div className={styles.mailExterior}>
                     <section id='mail'>
-                        <span className={styles.emailText}>{email}</span>
-                        <button className={styles.buttonCopyMail} onClick={copiarAlPortapapeles}>
-                            <img src={Copy} className={styles.copyPic}/>
-                        </button>
+                        <div className={styles.mailMail}>
+                            <div className={styles.emailText}>{email}</div>
+                            <div className={styles.buttonCopyMailDiv}>
+                                <button className={styles.buttonCopyMail} onClick={copiarAlPortapapeles}>
+                                    <img src={Copy} className={styles.copyPic}/>
+                                </button>
+                            </div>
+                        </div>
+                        
+                        
                     </section>
-                    
+                     
                 </div>
             </div>
             <form action="" className={styles.mailContainer}>
