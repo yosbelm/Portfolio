@@ -7,12 +7,10 @@ import { About } from './AboutMe/AboutMe';
 import { ContactMe } from './Contact/Contact';
 import { Footer } from './Footer/Footer';
 
-function App() {
-  
 
+function App() {
   return (
     <>
-    <div>
       <Header/>
       <Hero/>
       <Proyects/>
@@ -20,10 +18,7 @@ function App() {
       <About/>
       <ContactMe/>
       <Footer/>
-    </div>
     </>
-
 );
-}
-
+}   
 export default App

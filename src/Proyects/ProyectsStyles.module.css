@@ -153,9 +153,12 @@
         margin-left: 0;
         padding-left: 0;
         gap: 1rem;
-    }   
+    } 
+    .containerProyectImg{
+        width: 50%;
+    }  
     .proyectImageDiv{
-        width: 100%;
+        width: fit-content;
         height: 250px;
         border-radius: 20px;
     }

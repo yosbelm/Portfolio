@@ -6,3 +6,9 @@ body{
     background-color: rgba(170, 170, 170, 0.185);
     font-family: "Poppins", "Figtree";
 }
+#light {
+    background-color: rgb(162, 0, 255);
+}
+#dark {
+    background-color: rgba(23, 182, 95, 0.377);
+}
