@@ -53,13 +53,19 @@
 } 
 .emailText{
     font: 18px "Poppins";
-    /* padding-right: 1rem; */
+    display: flex;
+    align-items: center;
     
 } 
+.mailMail{
+    display: flex;
+    justify-content: center;
+}
 .buttonCopyMail{
     height: 50px;
     width: 50px;
     border: none;
+    background-color: white;
 } 
 .buttonCopyMail:hover{
     transform: translate(1px, 1px);
