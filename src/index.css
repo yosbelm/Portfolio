@@ -5,6 +5,7 @@
 body{
     background-color: rgba(170, 170, 170, 0.185);
     font-family: "Poppins", "Figtree";
+    width: fit-content;
 }
 #light {
     background-color: white;

@@ -141,21 +141,22 @@
         margin: 0;
         padding: 0;
         height: 100vh;
+        width: fit-content;
         margin-bottom: 20px;
         padding-top: 65px;
     }
     .proyectCalculator{
         height: 520px;
-        width: 100%;
+        width: fit-content;
         display: flex;
         flex-wrap: wrap;
         /* align-content: center; */
-        margin-left: 0;
-        padding-left: 0;
+        margin-left: 10px;
+        margin-right: 10px;
         gap: 1rem;
     } 
     .containerProyectImg{
-        width: 50%;
+        width: fit-content;
     }  
     .proyectImageDiv{
         width: fit-content;
