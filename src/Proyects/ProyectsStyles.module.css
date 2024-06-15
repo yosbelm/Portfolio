@@ -147,28 +147,24 @@
     }
     .proyectCalculator{
         height: 520px;
-        width: fit-content;
         display: flex;
         flex-wrap: wrap;
-        /* align-content: center; */
-        margin-left: 10px;
-        margin-right: 10px;
         gap: 1rem;
+        width: 94%;
+        margin-left: 3%;
+        margin-right: 3%;
     } 
     .containerProyectImg{
+        display: flex;
+        justify-content: center;
         width: fit-content;
-    }  
-    .proyectImageDiv{
-        width: fit-content;
-        height: 250px;
-        border-radius: 20px;
     }
-    .containerProyectImg{
-        width: fit-content;
-    } 
+    .proyectImage{
+        width: 100%;
+    }
     .proyectImageText{
         position: absolute;
-        width: 61%;
+        width: 60%;
         background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
@@ -184,7 +180,7 @@
     .proyectDescription{
         display: flex;
         justify-content: center;
-        font-size: 24px;
+        font-size: 22px;
         margin-top: 16px;
         color: #343A40;
         margin-bottom: 0;
@@ -205,7 +201,7 @@
     .proyectShortInfo{
         display: flex;
         justify-content: center;
-        font-size: 13px;
+        font-size: 12px;
         padding-left: 10px;
         padding-right: 10px;
         padding-top: 10px;
