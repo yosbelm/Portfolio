@@ -15,10 +15,11 @@
     
 }
 .imgPerson{
-    width: 50px;
-    height: 50px;
+    width: 32px;
+    height: 32px;
     padding-right: 6px;
     padding-top: 2px;
+    margin-top: 11px;
 }
 .aboutText{
     font: 42px "Poppins";
@@ -119,4 +120,19 @@
         margin-right: 10px;
         font-size: 15px;
     }
+}
+
+:global(#dark) .imgPerson{
+    height: 38px;
+    width: 40px;
+    margin-top: 9px;
+}
+:global(#dark) .aboutSection{
+    color: white;
+}
+:global(#dark) .textAboutMeOne{
+    color: white;
+}
+:global(#dark) .textAboutMeTwo{
+    color: white;
 }

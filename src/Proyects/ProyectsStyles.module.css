@@ -221,3 +221,6 @@
 :global(#dark) .proyectShortInfo{
     color: white;
 }
+:global(#dark) .proyectText{
+    color: white;
+}

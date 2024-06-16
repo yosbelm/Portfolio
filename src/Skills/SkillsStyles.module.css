@@ -85,3 +85,10 @@
         padding-left: 5px;
     }
 }
+
+:global(#dark) .skillsText{
+    color: white;
+}
+:global(#dark) .logosProg{
+    color: white;
+}

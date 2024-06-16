@@ -1,4 +1,5 @@
-import BrainWhite from '../../src/assets/brainwhite.png'
+import BrainWhite from '../../src/assets/brainWhite.png'
+import BrainDark from '../../src/assets/brainDark.png'
 import JavaScript from '../../src/assets/jscript.svg'
 import HTML from '../../src/assets/html.svg'
 import CSS from '../../src/assets/css.svg'
@@ -10,12 +11,17 @@ import Git from '../../src/assets/git.svg'
 import VSC from '../../src/assets/vsc.png'
 import Flet from '../../src/assets/flet.png'
 import styles from './SkillsStyles.module.css'
+import { useTheme } from "../common/ThemeContext"
+
 
 export const Skills = () => {
+    const { theme } = useTheme();
+    const brainIconSrc = theme === 'dark' ? BrainDark : BrainWhite;
+    
     return(
         <section className={styles.skillsSection} id="skills">
             <div className={styles.bannerSkills}>
-                <img className={styles.imgBrain} src={BrainWhite} alt="brain" />
+                <img className={styles.imgBrain} src={brainIconSrc} alt="brain" />
                 <h2 className={styles.skillsText}>Skills</h2>
             </div>
             <div className={styles.logosProg}>

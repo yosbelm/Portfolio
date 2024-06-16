@@ -5,12 +5,18 @@ import Python from '../../src/assets/python.png'
 import Pandas from '../../src/assets/pandas.png'
 import Flet from '../../src/assets/flet.png'
 import styles from './ProyectsStyles.module.css'
+import LogoPDark from "../../src/assets/curlybracketsDark.png"
+import { useTheme } from "../common/ThemeContext"
+
 
 export const Proyects = () => {
+    const { theme } = useTheme();
+    const logoIconSrc = theme === 'dark' ? LogoPDark : LogoP;
+    
     return(
         <section id= "proyects" className={styles.proyectsSection}>
             <div className={styles.bannerProyects}>
-                <img className={styles.imgLogop} src={LogoP} alt="Logo de la programacion" />
+                <img className={styles.imgLogop} src={logoIconSrc} alt="Logo de la programacion" />
                 <h2 className={styles.proyectText}>Proyects</h2>
             </div>
             <div className={styles.proyectCalculator}>

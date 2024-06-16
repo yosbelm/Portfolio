@@ -1,9 +1,16 @@
 import ContactP from '../../src/assets/contact-logo.png'
-
-import Copy from '../../src/assets/copy.png'
+import ContactPDark from '../../src/assets/contact-logo-blue.png'
+import Copy from '../../src/assets/copylight.png'
+import CopyDark from '../../src/assets/copydark.png'
 import styles from './ContactStyles.module.css'
+import { useTheme } from "../common/ThemeContext"
+
 
 export const ContactMe = () => {
+    const { theme } = useTheme();
+    const copyIconSrc = theme === 'dark' ? CopyDark : Copy;
+    const contactIconSrc = theme === 'dark' ? ContactPDark : ContactP;
+
     const email = "yosbelm99@gmail.com";
 
     const copiarAlPortapapeles = () => {
@@ -19,7 +26,7 @@ export const ContactMe = () => {
     return(
             <section className={styles.contactSection} id="contact">
             <div className={styles.bannerContact}>
-                <img className={styles.imgContact} src={ContactP} alt="Contact icon" />
+                <img className={styles.imgContact} src={contactIconSrc} alt="Contact icon" />
                 <h2 className={styles.contactText}>Contact</h2>
             </div>
             <div>
@@ -33,7 +40,7 @@ export const ContactMe = () => {
                             <div className={styles.emailText}>{email}</div>
                             <div className={styles.buttonCopyMailDiv}>
                                 <button className={styles.buttonCopyMail} onClick={copiarAlPortapapeles}>
-                                    <img src={Copy} className={styles.copyPic}/>
+                                    <img src={copyIconSrc} className={styles.copyPic}/>
                                 </button>
                             </div>
                         </div>

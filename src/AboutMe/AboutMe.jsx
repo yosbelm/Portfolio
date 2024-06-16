@@ -1,12 +1,18 @@
-import Person from '../../src/assets/about-banner.png'
+import PersonWhite from '../../src/assets/aboutbannerlight.png'
+import PersonDark from '../../src/assets/aboutbanner.png'
 import Profile from "../../src/assets/profile-pic-job.jpeg"
 import styles from './AboutMeStyles.module.css'
+import { useTheme } from "../common/ThemeContext"
+
 
 export const About = () => {
+    const { theme } = useTheme();
+    const personIconSrc = theme === 'dark' ? PersonDark : PersonWhite;
+    
     return(
         <section className={styles.aboutSection} id="about"> 
             <div className={styles.bannerAbout}>
-                <img className={styles.imgPerson} src={Person} alt="person" />
+                <img className={styles.imgPerson} src={personIconSrc} alt="person" />
                 <h2 className={styles.aboutText}>About me</h2>
             </div>
             <div className={styles.aboutGeneral}>

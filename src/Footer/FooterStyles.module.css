@@ -18,3 +18,8 @@
         justify-content: center;
     }
 }
+
+
+:global(#dark) .container{
+    color: white;
+}

@@ -15,10 +15,10 @@
     
 }
 .imgContact{
-    width: 50px;
-    height: 50px;
+    width: 38px;
+    height: 38px;
     padding-right: 6px;
-    padding-top: 2px;
+    margin-top: 10px;
 }
 .contactText{
     font: 42px "Poppins";
@@ -65,8 +65,11 @@
     height: 50px;
     width: 50px;
     border: none;
-    background-color: white;
 } 
+.copyPic{
+    height: 25px;
+    width: 25px;
+}
 .buttonCopyMail:hover{
     transform: translate(1px, 1px);
     cursor: pointer;
@@ -137,15 +140,46 @@
         margin-top: 10px;
     }
 }
+
+
+:global(#dark) .imgContact{
+    width: 42px;
+    height: 42px;
+    margin-top: 9px;
+}
+:global(#dark) .contactText{
+    color: white;
+}
+:global(#dark) .buttonCopyMail{
+    background-color: hsl(210, 11%, 15%);
+}
+:global(#light) .buttonCopyMail{
+    background-color: white;
+}
 :global(#dark) .emailText{
     color: white;
 }
 :global(#dark) .getTouchText{
-    color: rgba(136, 133, 133, 0.637);
+    color: rgba(238, 238, 238, 0.637);
 }
-:global(#dark) .emailFieldMessage, .emailFieldEmail, .emailFieldText{
+:global(#dark) .emailFieldText{
     background-color: rgb(43, 41, 41);
 }
-:global(#light) .emailFieldMessage, .emailFieldEmail, .emailFieldText{
+:global(#dark) .emailFieldText::placeholder{
+    color: white;
+}
+:global(#dark) .emailFieldEmail{
+    background-color: rgb(43, 41, 41);
+}
+:global(#dark) .emailFieldEmail::placeholder{
+    color: white;
+}
+:global(#dark) .emailFieldMessage{
+    background-color: rgb(43, 41, 41);
+}
+:global(#dark) .emailFieldMessage::placeholder{
+    color: white;
+}
+:global(#light) .emailFieldMessage{
     background-color: rgb(255, 254, 254);
 }
