@@ -171,3 +171,21 @@ h1{
 :global(#dark) .botonContact{
     background-color: gray;
 }
+:global(#dark) .hello{
+    color: white;
+}
+:global(#dark) .Yosbel{
+    color: white;
+}
+:global(#dark) .frontend{
+    color: white;
+}
+:global(#light) .hello, .Yosbel, .frontend{
+    color: black;
+}
+:global(#dark) .botonCv{
+    border: none;
+}
+:global(#dark) .botonContact{
+    border: 0.2px solid gray;
+}
