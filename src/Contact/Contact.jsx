@@ -43,7 +43,7 @@ export const ContactMe = () => {
                      
                 </div>
             </div>
-            <form action="" className={styles.mailContainer}>
+            <form action={() => 'mailto:yosbelm99@gmail.com'} className={styles.mailContainer} method="post" enctype="text/plain">
                 <div className={styles.emailFieldNotButton}>
                     <div className={styles.emailFieldTextDiv}>
                         <label htmlFor="name" hidden>Name</label>
