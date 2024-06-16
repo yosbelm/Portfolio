@@ -137,3 +137,15 @@
         margin-top: 10px;
     }
 }
+:global(#dark) .emailText{
+    color: white;
+}
+:global(#dark) .getTouchText{
+    color: rgba(136, 133, 133, 0.637);
+}
+:global(#dark) .emailFieldMessage, .emailFieldEmail, .emailFieldText{
+    background-color: rgb(43, 41, 41);
+}
+:global(#light) .emailFieldMessage, .emailFieldEmail, .emailFieldText{
+    background-color: rgb(255, 254, 254);
+}

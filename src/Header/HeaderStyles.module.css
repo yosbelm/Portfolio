@@ -63,3 +63,6 @@
     }
 }
 
+:global(#dark) .atrib{
+    color: white;
+}

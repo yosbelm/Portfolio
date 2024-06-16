@@ -162,3 +162,12 @@ h1{
         margin-left: 10px;
     }
 }
+
+
+:global(#dark) .botonCv{
+    background-color: gray;
+    color: white;
+}
+:global(#dark) .botonContact{
+    background-color: gray;
+}

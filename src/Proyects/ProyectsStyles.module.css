@@ -208,3 +208,16 @@
         padding-bottom: 25px;
     }       
 }
+
+:global(#dark) .proyectShortInfo{
+    color: black;
+}
+:global(#dark) .proyectCalculator{
+    background-color: rgb(43, 41, 41);
+}
+:global(#dark) .proyectDescription{
+    color: rgb(180, 178, 178);
+}
+:global(#dark) .proyectShortInfo{
+    color: white;
+}

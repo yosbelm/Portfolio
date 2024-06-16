@@ -9,8 +9,8 @@ body{
     
 }
 #light {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 #dark {
-    background-color: rgba(23, 182, 95, 0.377);
+    background-color: hsl(210, 11%, 15%);
 }
