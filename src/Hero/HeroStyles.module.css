@@ -99,6 +99,9 @@ h1{
 .github, .linkedin{
     height: 45px;
 }
+.linkedin{
+    height: 48px;
+}
 /* /////////////////////////////////////////////////////// */
 
 @media screen and (width <= 700px){
