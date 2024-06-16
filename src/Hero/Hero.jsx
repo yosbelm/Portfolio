@@ -1,7 +1,7 @@
 import Profile from "../../src/assets/hero-banner.jpg"
 import GitHub from "../../src/assets/github.png"
 import Linkedin from "../../src/assets/linkedin.png"
-import styles from './HeroStyles.module.css'
+import styles from './HeroStyles.module.css' 
 
 export const Hero = () => {
     return (
@@ -17,7 +17,7 @@ export const Hero = () => {
                 </div>
                 <div className={styles.botonContainer}>
                     <button className={styles.botonCv} onClick="">Download CV</button>
-                    <button className={styles.botonContact} onClick={"location.href('./#contact')"}>Email</button>
+                    <button className={styles.botonContact} onClick={() => location.href='mailto:yosbelm99@gmail.com'}>Email</button>
                 </div>
                 <div className={styles.socialMedia}>
                     <img src={GitHub} alt="GitHub logo" 
