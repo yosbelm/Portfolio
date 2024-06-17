@@ -164,18 +164,21 @@
 }
 :global(#dark) .emailFieldText{
     background-color: rgb(43, 41, 41);
+    color: white;
 }
 :global(#dark) .emailFieldText::placeholder{
     color: white;
 }
 :global(#dark) .emailFieldEmail{
     background-color: rgb(43, 41, 41);
+    color: white;
 }
 :global(#dark) .emailFieldEmail::placeholder{
     color: white;
 }
 :global(#dark) .emailFieldMessage{
     background-color: rgb(43, 41, 41);
+    color: white;
 }
 :global(#dark) .emailFieldMessage::placeholder{
     color: white;

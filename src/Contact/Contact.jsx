@@ -50,19 +50,19 @@ export const ContactMe = () => {
                      
                 </div>
             </div>
-            <form action={() => 'mailto:yosbelm99@gmail.com'} className={styles.mailContainer} method="post" enctype="text/plain">
+            <form action={"https://formspree.io/f/xoqggrow"} className={styles.mailContainer} method="post" /*enctype="text/plain"*/>
                 <div className={styles.emailFieldNotButton}>
                     <div className={styles.emailFieldTextDiv}>
-                        <label htmlFor="name" hidden>Name</label>
-                        <input className={styles.emailFieldText} type="text" placeholder='Name' required/>
+                        <label for="name" hidden>Name</label>
+                        <input className={styles.emailFieldText} type="text" id='name' name='name' placeholder='Name' required/>
                     </div>
                     <div className={styles.emailFieldEmailDiv}>
-                        <label htmlFor="email" hidden>Email</label>
-                        <input className={styles.emailFieldEmail} type="email" placeholder='Email' required/>
+                        <label for="email" hidden>Email</label>
+                        <input className={styles.emailFieldEmail} type="email" id='email' name='email' placeholder='Email' required/>
                     </div>
                     <div className={styles.emailFieldMessageDiv}>
-                        <label htmlFor="message" hidden>Message</label>
-                        <textarea className={styles.emailFieldMessage} type="text" placeholder='Message' required></textarea>
+                        <label for="message" hidden>Message</label>
+                        <textarea className={styles.emailFieldMessage} type="text" id='message' name='message' placeholder='Message' required></textarea>
                     </div>
                 </div>
                 <div className={styles.emailSubmit}>
