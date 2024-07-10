@@ -14,7 +14,7 @@ export const Hero = () => {
         const handleDownload = () => {
             const link = document.createElement('a');
             link.href = cvFile;
-            link.download = 'Resume.pdf';
+            link.download = 'yosbelResume.pdf';
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
