@@ -19,7 +19,7 @@ export const Proyects = () => {
         <section id= "proyects" className={styles.proyectsSection}>
             <div className={styles.bannerProyects}>
                 <img className={styles.imgLogop} src={logoIconSrc} alt="Logo de la programacion" />
-                <h2 className={styles.proyectText}>Proyects</h2>
+                <h2 className={styles.proyectText}>Projects</h2>
             </div>
             <div className={styles.proyectCalculator}>
                 <div className={styles.containerProyectImg}>
