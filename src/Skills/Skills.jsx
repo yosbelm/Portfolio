@@ -5,6 +5,7 @@ import HTML from '../../src/assets/html.svg'
 import CSS from '../../src/assets/css.svg'
 import React from '../../src/assets/react.svg'
 import Python from '../../src/assets/piton.png'
+import Django from '../../src/assets/django.svg'
 import Pandas from '../../src/assets/pandas.png'
 import GitHub from '../../src/assets/github-skill-light.png'
 import Git from '../../src/assets/git.svg'
@@ -51,6 +52,10 @@ export const Skills = () => {
                     <div>
                         <img src={Pandas} alt="Pandas logo" />
                         <p>Pandas</p>
+                    </div>
+                    <div>
+                        <img src={Django} alt="Django logo" />
+                        <p>Django</p>
                     </div>
                     <div>
                         <img src={Flet} alt="Flet logo" />

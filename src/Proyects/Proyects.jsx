@@ -1,5 +1,6 @@
 import LogoP from '../../src/assets/curlybrackets.png'
 import Proyectimg from '../../src/assets/proyectimage.webp'
+import Chatimg from '../../src/assets/ChatProject.jpg'
 import GitHub from '../../src/assets/octocat1.png'
 import Python from '../../src/assets/python.png'
 import Pandas from '../../src/assets/pandas.png'
@@ -54,7 +55,7 @@ export const Proyects = () => {
             </div>
             <div className={styles.proyectCalculator}>
                 <div className={styles.containerProyectImg}>
-                        <img className={styles.proyectImage} src={Proyectimg} alt="" />
+                        <img className={styles.proyectImage} src={Chatimg} alt="" />
                     <div className={styles.proyectImageText}>
                         <div className={styles.techUsed}>
                             <img src={Python} alt="Python logo" />
