@@ -24,7 +24,7 @@ export const ContactMe = () => {
     };
 
     return(
-            <section className={styles.contactSection} id="contact">
+            <section className={styles.contactSection} id="contact"> 
             <div className={styles.bannerContact}>
                 <img className={styles.imgContact} src={contactIconSrc} alt="Contact icon" />
                 <h2 className={styles.contactText}>Contact</h2>
