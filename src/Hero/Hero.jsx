@@ -27,7 +27,7 @@ export const Hero = () => {
             <div className={styles.textoRigth}>
                 <div className={styles.heroText}>
                     <p className={styles.hello}>Hello, I'm</p>
-                    <h1 className={styles.Yosbel}>Isbel</h1>
+                    <h1 className={styles.Yosbel}>Yosbel</h1>
                     <p className={styles.frontend}>FullStack Developer</p>
                 </div>
                 <div className={styles.botonContainer}>
