@@ -1,7 +1,7 @@
 import Profile from "../../src/assets/hero-banner.jpg"
 import GithubWhite from "../../src/assets/github.png"
 import GitHubDark from "../../src/assets/github-dark.svg"
-import cvFile from "../../src/assets/Resume.pdf";
+import cvFile from "../../src/assets/ResumebE.pdf";
 import Linkedin from "../../src/assets/linkedinblue.png"
 import styles from './HeroStyles.module.css' 
 import { useTheme } from "../common/ThemeContext"
@@ -38,7 +38,7 @@ export const Hero = () => {
                     <img src={githubIconSrc} alt="GitHub logo" 
                     className={styles.github} onClick={()=> location.href = 'https://github.com/yosbelm'}/>
                     <img src={Linkedin} alt="linkedin logo" 
-                    className={styles.linkedin} onClick={()=> location.href = 'https://linkedin.com/yosbelm'}/>
+                    className={styles.linkedin} onClick={()=> location.href = 'https://www.linkedin.com/in/yosbelm/'}/>
                 </div>
             </div>
             
