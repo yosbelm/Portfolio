@@ -103,7 +103,7 @@ export const Proyects = () => {
                 </div>
                 <div className={styles.containerProyectDescrip}>
                     <div>
-                        <h2 className={styles.proyectDescription}>Pediatric Percentile Calculator</h2>
+                        <h2 className={styles.proyectDescription}>Percentile Calculator</h2>
                         <p className={styles.proyectShortInfo}>
                         The Pediatric Percentile Calculator is an essential tool designed to offer quick and accurate assessments of a child's growth patterns, comparing their weight, height,<br />
                          and body composition against standardized percentiles. 
