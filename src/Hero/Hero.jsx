@@ -31,7 +31,7 @@ export const Hero = () => {
                     <p className={styles.frontend}>FullStack Developer</p>
                 </div>
                 <div className={styles.botonContainer}>
-                    <button className={styles.botonCv} onClick={handleDownload}>Download CV</button>
+                    <button className={styles.botonCv} onClick={handleDownload}>Resume</button>
                     <button className={styles.botonContact} onClick={() => location.href='mailto:yosbelm99@gmail.com'}>Email</button>
                 </div>
                 <div className={styles.socialMedia}>

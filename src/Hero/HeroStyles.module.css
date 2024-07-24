@@ -64,8 +64,8 @@ h1{
     font-size: 13px;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-left: 18px;
-    padding-right: 18px;
+    padding-left: 35px;
+    padding-right: 35px;
     font-weight: 800;
 }
 .botonCv:hover{
@@ -98,6 +98,9 @@ h1{
 }
 .github, .linkedin{
     height: 45px;
+}
+.github, .linkedin:hover{
+    cursor: pointer;
 }
 .linkedin{
     height: 48px;
@@ -149,10 +152,10 @@ h1{
     }
     .botonCv{
         font-size: 11px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 28px;
+        padding-right: 28px;
         font-weight: 800;
     }
     .botonContact{

@@ -20,7 +20,7 @@ export const About = () => {
                     <img className={styles.profilePictureAboutMe} src={Profile} alt="Profile picture" /> 
                 </div>
                 <div className={styles.aboutMeTextGeneral}>
-                    <div className={styles.aboutMeCards}>
+                    {/* <div className={styles.aboutMeCards}>
                         <div className={styles.cardAboutMeLeft}>
                             <h3>FrontEnd</h3>
                             <p>Experience</p>
@@ -29,7 +29,7 @@ export const About = () => {
                             <h3>BackEnd</h3>
                             <p>Experience</p>
                         </div>
-                    </div>
+                    </div> */}
                     <div className={styles.textAboutMe}>
                         <p className={styles.textAboutMeOne}>
                             Hi, I'm a self-taught programmer with a passion for technology, mathematics, and problem-solving.
