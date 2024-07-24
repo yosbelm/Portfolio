@@ -3,6 +3,7 @@ import Proyectimg from '../../src/assets/pediatricCalculator.jpeg'
 import Chatimg from '../../src/assets/myChat.jpeg'
 import ecomimg from '../../src/assets/myEcommerce.png'
 import GitHub from '../../src/assets/octocat1.png'
+import Link64 from '../../src/assets/linkwhite.png'
 import Python from '../../src/assets/python.png'
 import Pandas from '../../src/assets/pandas.png'
 import Flet from '../../src/assets/flet.png'
@@ -43,8 +44,14 @@ export const Proyects = () => {
                         The Mini Shop site provides user authentication, product displays, a shopping cart, and registration. Enjoy easy browsing, adding items to the cart, and a smooth checkout process for a seamless shopping experience.
                         </p>
                     </div>
-                    <div className={styles.buttonsProyect}>
-                        <button className={styles.buttonGithubCode} onClick={()=> location.href = 'https://github.com/yosbelm/myEcommerce'}>
+                    <div className={styles.buttonsProyectwithurl}>
+                        <button className={styles.buttonGithubCodewithurllink} onClick={()=> location.href = 'https://candonga.pythonanywhere.com'}>
+                            <span className={styles.codeGithubButton}>
+                                <img className={styles.githubButton} src={Link64} alt="Github logo" />
+                                <p className={styles.textButton}>Link</p>
+                            </span>
+                        </button>
+                        <button className={styles.buttonGithubCodewithurl} onClick={()=> location.href = 'https://github.com/yosbelm/myEcommerce'}>
                             <span className={styles.codeGithubButton}>
                                 <img className={styles.githubButton} src={GitHub} alt="Github logo" />
                                 <p className={styles.textButton}>Code</p>
