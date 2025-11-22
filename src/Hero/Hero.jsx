@@ -1,7 +1,7 @@
 import Profile from "../../src/assets/hero-banner.jpg"
 import GithubWhite from "../../src/assets/github.png"
 import GitHubDark from "../../src/assets/github-dark.svg"
-import cvFile from "../../src/assets/ResumebE.pdf";
+import cvFile from "../../src/assets/Resume3.pdf";
 import Linkedin from "../../src/assets/linkedinblue.png"
 import styles from './HeroStyles.module.css' 
 import { useTheme } from "../common/ThemeContext"

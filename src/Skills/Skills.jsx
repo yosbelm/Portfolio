@@ -11,6 +11,14 @@ import GitHub from '../../src/assets/github-skill-light.png'
 import Git from '../../src/assets/git.svg'
 import VSC from '../../src/assets/vsc.png'
 import Flet from '../../src/assets/flet.png'
+import LogoPDark from "../../src/assets/curlybracketsDark.png"
+import DjangoRest from "../../src/assets/djangorest-original.svg"
+import DjangoRest2 from "../../src/assets/django-rest2.svg"
+import Vue from "../../src/assets/vuejs-original.svg"
+import Bootstrap from "../../src/assets/bootstrap-original.svg"
+import Svelte from "../../src/assets/svelte-original.svg"
+import MySQL from "../../src/assets/mysql-original.svg"
+import Linux from "../../src/assets/linux-original.svg"
 import styles from './SkillsStyles.module.css'
 import { useTheme } from "../common/ThemeContext"
 
@@ -26,6 +34,25 @@ export const Skills = () => {
                 <h2 className={styles.skillsText}>Skills</h2>
             </div>
             <div className={styles.logosProg}>
+                <div className={styles.backendLogo}>
+                    <div>
+                        <img src={Python} alt="Python logo" />
+                        <p>Python</p>
+                    </div>
+                    <div>
+                        <img src={Django} alt="Django logo" />
+                        <p>Django</p>
+                    </div>
+                    <div>
+                        <img src={DjangoRest} alt="Django Rest Framework logo"/>
+                        <p>DRF</p>
+                    </div>
+                    <div>
+                        <img src={Pandas} alt="Pandas logo" />
+                        <p>Pandas</p>
+                    </div>
+                </div>
+
                 <div className={styles.frontendLogo}>
                     <div className={styles.jsDiv}>
                         <img src={JavaScript} alt="Javascript logo" />
@@ -44,36 +71,23 @@ export const Skills = () => {
                          <p>React</p>
                     </div>
                 </div>
-                <div className={styles.backendLogo}>
-                    <div>
-                        <img src={Python} alt="Python logo" />
-                        <p>Python</p>
-                    </div>
-                    <div>
-                        <img src={Pandas} alt="Pandas logo" />
-                        <p>Pandas</p>
-                    </div>
-                    <div>
-                        <img src={Django} alt="Django logo" />
-                        <p>Django</p>
-                    </div>
-                    <div>
-                        <img src={Flet} alt="Flet logo" />
-                        <p>Flet</p>
-                    </div>
-                </div>
+                
                 <div className={styles.techLogo}>
                     <div>
-                        <img src={GitHub} alt="GitHub logo" />
-                        <p>GitHub</p>
+                        <img src={Vue} alt="Vue logo" />
+                        <p>Vue</p>
                     </div>
                     <div>
-                        <img src={VSC} alt="Visual Studio Code logo" />
-                        <p>VSC</p>
+                        <img src={Bootstrap} alt="Bootstrap logo" />
+                        <p>Bootstrap</p>
                     </div>
                     <div>
-                        <img src={Git} alt="Git logo" />
-                        <p>Git</p>
+                        <img src={MySQL} alt="MySQL logo" />
+                        <p>MySQL</p>
+                    </div>
+                    <div>
+                        <img src={Linux} alt="Linux logo" />
+                        <p>Linux</p>
                     </div>
                 </div>
             </div>

@@ -32,8 +32,7 @@ export const About = () => {
                     </div> */}
                     <div className={styles.textAboutMe}>
                         <p className={styles.textAboutMeOne}>
-                            Hi, I'm a self-taught programmer with a passion for technology, mathematics, and problem-solving.
-                            I've honed my programming skills through personal projects and online courses, and I'm always eager for new challenges to fuel my learning and growth.
+                            Backend Developer with 3 years of experience in Django. Skilled in building robust systems and web applications. Enthusiastic, proactive, and a collaborative team player, bringing adaptability and fresh perspective to dynamic teams
                         </p>
                         
                         <p  className={styles.textAboutMeTwo}>

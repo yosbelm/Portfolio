@@ -45,7 +45,7 @@
     display: flex;
     justify-content: center;
     margin-top: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 .mailExterior{
     display: flex;
@@ -138,6 +138,9 @@
     }
     .emailSubmitButton{
         margin-top: 10px;
+    }
+    .emailContainer{
+        margin-bottom: 20px;
     }
 }
 
