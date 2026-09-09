@@ -37,7 +37,7 @@ export const PersonalProyects = () => {
             image: tuKiosko, 
             techStack: [DjangoRest2, React],
             link: "https://tukiosko.onrender.com/",
-            code: "https://github.com/tuKiosko.git"
+            code: "https://github.com/yosbelm/tuKiosko"
         },
         
     ];

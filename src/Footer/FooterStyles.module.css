@@ -1,5 +1,7 @@
 .container{
     height: 5dvh;
+    padding-top: 5rem;
+    margin-top: 2rem;
     padding-bottom: 20px;
     font-family: "Figtree";
     color: #6b7280;
