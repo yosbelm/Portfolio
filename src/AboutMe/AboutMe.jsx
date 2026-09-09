@@ -32,13 +32,16 @@ export const About = () => {
                     </div> */}
                     <div className={styles.textAboutMe}>
                         <p className={styles.textAboutMeOne}>
-                            Backend Developer with 3 years of experience in Django. Skilled in building robust systems and web applications. Enthusiastic, proactive, and a collaborative team player, bringing adaptability and fresh perspective to dynamic teams
+                        Mid-senior Fullstack Developer with 5+ years of Django expertise, delivering robust web applications and scalable backend systems.
+                        Proven track record in optimizing database performance (40% faster queries) and implementing secure payment/authorization systems
+                        with 99.9% uptime. Skilled in Django REST Framework, PostgreSQL, React, Vue.js; known for driving performance improvements and
+                        technical leadership in agile teams.
                         </p>
                         
-                        <p  className={styles.textAboutMeTwo}>
+                        {/* <p  className={styles.textAboutMeTwo}>
                             In addition to programming, I'm a native Spanish speaker with expertise in translating English to Spanish
                             for video games, software, and applications. I'm always looking for opportunities to combine my programming skills with my translation expertise!
-                        </p>
+                        </p> */}
                             
                     </div>
                 </div>

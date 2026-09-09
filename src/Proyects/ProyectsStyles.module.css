@@ -72,6 +72,12 @@
     padding-bottom: 105px;
     transition: 0.1s;
 }
+
+.ppTexto{
+    display: flex;
+    justify-content: start;
+}
+
 .containerProyectImg:hover .proyectImageText{
     opacity: 1;
 }
@@ -132,6 +138,11 @@
 .buttonsProyectwithurl{
     display: flex;
     justify-content: space-evenly;
+}
+.buttonsPersonalProyectwithurl{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
 }
 .buttonGithubCodewithurl{
     border-radius: 40px;
@@ -315,6 +326,12 @@
 
 :global(#dark) .proyectShortInfo{
     color: black;
+}
+:global(#dark) .proyectCompany{
+    color: black
+}
+:global(#dark) .proyectCompany{
+    color: white
 }
 :global(#dark) .proyectCalculator{
     background-color: rgb(43, 41, 41);

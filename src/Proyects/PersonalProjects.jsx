@@ -19,46 +19,25 @@ import Svelte from "../../src/assets/svelte-original.svg"
 import MySQL from "../../src/assets/mysql-original.svg"
 import React from "../../src/assets/react.png"
 // Images
-import ecomimg from '../../src/assets/myEcommerce.jpg'
-import TowitHouston from '../../src/assets/Towit.png'
-import TDmeat from '../../src/assets/TDmeat.png'
-import Gallerax from '../../src/assets/Gallerax.png'
+import tuKiosko from '../../src/assets/tukiosko.png'
 import Pinkzebra from '../../src/assets/Pinkzebra.png'
 
 import { useTheme } from "../common/ThemeContext"
 
 
-export const Proyects = () => {
+export const PersonalProyects = () => {
     const { theme } = useTheme();
     const logoIconSrc = theme === 'dark' ? LogoPDark : LogoP;
 
     const projectsList = [
         {
-            title: "Eco-Friendly Fragrance Platform",
-            company: "Pink Zebra | Remote",
-            description: "Participated in the development of a platform focusing on creating API endpoints using Django REST Framework and integrating them with a Vue-based frontend. Used Django ORM to simplify and optimize database queries and collaborated with an agile development team.",
-            image: Pinkzebra, 
-            techStack: [Python, JavaScript, Django, DjangoRest2, Vue],
-            link: null,
-            code: null
-        },
-        {
-            title: "Trailer Rental & Sales Platform",
-            company: "Nitza Development | United States",
-            description: "Contributed to the backend development for TowitHouston using Django, optimizing database queries with Django Debug Toolbar. Collaborated on frontend design tasks and adjustments using Bootstrap 5.",
-            image: TowitHouston, 
-            techStack: [Python, JavaScript, Django, Boostrap],
-            link: null,
-            code: null
-        },
-        {
-            title: "Rooster Community Platforms",
-            company: "Private Client | Dominican Republic",
-            description: "Developed two complementary platforms enabling users to upload, view, and interact with videos. Implemented a live streaming feature with real-time comments. Built with Django, Bootstrap 5, and SQL.",
-            image: Gallerax, 
-            techStack: [Python, JavaScript, Django, Boostrap, MySQL],
-            link: null,
-            code: null
+            title: "tuKiosko",
+            company: "Yosbel",
+            description: "A platform for business owners to manage product inventory and generate referral links. Sales agents use a dedicated interface to track sales for their subscribed businesses. Streamline your sales network!",
+            image: tuKiosko, 
+            techStack: [DjangoRest2, React],
+            link: "https://tukiosko.onrender.com/",
+            code: "https://github.com/tuKiosko.git"
         },
         
     ];
@@ -67,7 +46,7 @@ export const Proyects = () => {
         <section id="proyects" className={styles.proyectsSection}>
             <div className={styles.bannerProyects}>
                 <img className={styles.imgLogop} src={logoIconSrc} alt="Logo de la programacion" />
-                <h2 className={styles.proyectText}>Projects</h2>
+                <h2 className={styles.proyectText}>Personal Projects</h2>
             </div>
 
             {projectsList.map((project, index) => (
@@ -100,13 +79,15 @@ export const Proyects = () => {
                     </div>
                     <div className={styles.containerProyectDescrip}>
                         <div>
-                            <h2 className={styles.proyectDescription}>{project.title}</h2>
+                            <div className={styles.ppTexto}>
+                                <h2 className={styles.proyectDescription}>{project.title}</h2>
+                            </div>
                             {project.company && <h4 className={styles.proyectCompany} style={{opacity: 0.8, marginBottom: '10px', marginTop: '0px', fontWeight: 'normal'}}>{project.company}</h4>}
-                            <p className={styles.proyectShortInfo}>
+                            <p className={styles.proyectShortInfo} style={{paddingBottom: '10px'}}>
                                 {project.description}
                             </p>
                         </div>
-                        <div className={styles.buttonsProyectwithurl}>
+                        <div className={styles.buttonsPersonalProyectwithurl}>
                             {project.link && (
                                 <button className={styles.buttonGithubCodewithurllink} onClick={()=> window.open(project.link, '_blank')}>
                                     <span className={styles.codeGithubButton}>

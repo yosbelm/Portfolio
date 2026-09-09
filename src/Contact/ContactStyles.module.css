@@ -45,7 +45,7 @@
     display: flex;
     justify-content: center;
     margin-top: 5px;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
 }
 .mailExterior{
     display: flex;
@@ -129,7 +129,7 @@
         margin: 0;
         padding: 0;
         width: 100%;
-        height: 100dvh;
+        height: 75dvh;
         margin-top: 50px;
         padding-top: 65px;
     }.bannerContact{
